@@ -35,7 +35,6 @@ setInput(e);
 } 
   return (
   <div>
-{/* {console.log("The relative position is adjusted relative to itself, without changing the layout . True")} */}
 <input type="text" onChange={(event) => checkForWordMatch(event.target.value)} value={input}  style={{height:"10vh",width:"20vw",margin:"3vh",fontSize:"3vh"}}>
             </input> 
   </div>
